@@ -1,0 +1,5 @@
+[
+    {"nome": "Aragorn", "vida": 100, "ataque": 15, "classe": "Guerreiro"},
+    {"nome": "Gandalf", "vida": 80, "ataque": 20, "classe": "Mago"},
+    {"nome": "Legolas", "vida": 90, "ataque": 18, "classe": "Arqueiro"}
+]
