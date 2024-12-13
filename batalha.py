@@ -73,7 +73,7 @@ def importar_personagens(caminho):
                 personagens.append(Mago(dado["nome"],dado["vida"],dado["ataque"]))
             else:
                 personagens.append(Arqueiro(dado["nome"],dado["vida"],dado["ataque"]))
-    return personagens, len(personagens)
+        return personagens, len(personagens)
     
 
 def ordenar_personagens_por_vida(personagens):
