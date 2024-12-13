@@ -24,7 +24,7 @@ class Guerreiro(Personagem):
         self.ataque = ataque
     
     def especial(self, inimigo):
-        print(f"{self.nome} usa Golpe Poderoso em {inimigo.nome} e Causa 30 de Dano")
+        print(f"{self.nome} usa Golpe Poderoso em {inimigo.nome} e Causa 30 de Dano!")
         inimigo.vida -=30
     
 
@@ -54,7 +54,7 @@ class Arqueiro(Personagem):
         self.ataque = ataque
 
     def especial(self,inimigo):
-        print(f"{self.nome} usa Chuva de Flechas e Causa 15 de Dano a Todos os Inimigos")
+        print(f"{self.nome} usa Chuva de Flechas e Causa 15 de Dano a Todos os Inimigos!")
         for inimigo1 in inimigo:
             if(inimigo1.nome !=self.nome):
                 inimigo1.vida-=15
